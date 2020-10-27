@@ -33,7 +33,7 @@ network.fit(train_img,train_label,epochs=5,batch_size=128)
 
 test_loss, test_acc=network.evaluate(test_img,test_label)
 
-#
+#print("test accuracy  = {} %".format(test_acc))
 array = train_img[0].reshape(784,1).T
 
 # print(array.shape)
