@@ -69,7 +69,7 @@ history=model.fit_generator(
 model.save('cat_vs_dog.h5-aug')
 
 
-
+#prediction remaining
 
 
 
